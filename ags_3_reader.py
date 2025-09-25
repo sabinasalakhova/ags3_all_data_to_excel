@@ -22,7 +22,6 @@ def _split_quoted_csv(s: str) -> List[str]:
 def parse_ags_file(file_bytes: bytes) -> Dict[str, pd.DataFrame]:
     """
     Parses AGS 3.1 format file bytes into a dictionary of pandas DataFrames.
-    This parser handles quoted fields, multi-line headers, and data continuation lines.
     """
     text = file_bytes.decode("latin-1", errors="ignore")
     lines = [ln.strip() for ln in text.splitlines() if ln.strip()]
@@ -33,7 +32,7 @@ def parse_ags_file(file_bytes: bytes) -> Dict[str, pd.DataFrame]:
     is_header_continuation = False
 
     def _split_line(line: str) -> List[str]:
-        """Robustly split a CSV line, handling quoted fields."""
+        """split a CSV line"""
         # This regex handles commas inside quotes
         parts = re.split(r',(?=(?:[^"]*"[^"]*")*[^"]*$)', line)
         # Strip quotes and whitespace from each part
@@ -233,4 +232,5 @@ def main():
     write_groups_to_excel(combined_groups, output_path)
 
 if __name__ == "__main__":
+
     main()
