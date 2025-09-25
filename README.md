@@ -17,4 +17,4 @@ python ags_3_reader.py ags_data -o output.xlsx
 ## -  ⚠️ Make sure the output file name does not already exist in your AGS data folder.
 ### Check your output
 The generated Excel file will appear in the input folder you specified.
-If any file in the folder is in AGS4 format, the script will display a warning.
+If any file in the folder is in AGS4 format, the script will display a warning in the terminal.
