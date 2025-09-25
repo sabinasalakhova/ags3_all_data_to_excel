@@ -4,9 +4,9 @@
 ## Install dependencies
 Make sure you have the following Python packages installed:
 pip install pandas xlsxwriter
-# Download the script folder
+## Download the script folder
 ## Clone or download from Git the folder containing ags_3_reader.py.
-# Run the script in terminal
+## Run the script in terminal
 ## Navigate to the folder:
 cd path/to/your/folder
 ## Then run the parser:
