@@ -1,6 +1,6 @@
 
 
-#🔧 Setup Instructions
+# 🔧 Setup Instructions
 ## Install dependencies
 Make sure you have the following Python packages installed:
 pip install pandas xlsxwriter
