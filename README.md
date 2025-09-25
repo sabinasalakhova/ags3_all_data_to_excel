@@ -5,9 +5,9 @@
 Make sure you have the following Python packages installed:
 pip install pandas xlsxwriter
 ## Download the script folder
-## Clone or download from Git the folder containing ags_3_reader.py.
+ Clone or download from Git the folder containing ags_3_reader.py.
 ## Run the script in terminal
-## Navigate to the folder:
+ Navigate to the folder:
 cd path/to/your/folder
 ## Then run the parser:
 python ags_3_reader.py <input_folder_name> -o <output_filename>.xlsx
