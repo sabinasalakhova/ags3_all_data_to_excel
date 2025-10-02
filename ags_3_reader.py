@@ -101,7 +101,7 @@ def find_hole_id_column(columns: List[str]) -> Optional[str]:
     # List of common primary keys for boreholes
     candidates = [
         "HOLE_ID", "HOLEID", "HOLE", "LOCA_ID", "LOCATION_ID", 
-        "LOC_ID", "LOCID", "BORE_ID", "BOREID", "BOREHOLE_ID", "POINT_ID"
+        "LOC_ID", "LOCID"
     ]
     
     for cand in candidates:
@@ -234,3 +234,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
