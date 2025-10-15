@@ -1,9 +1,13 @@
-import logging
-from pathlib import Path
-import argparse
+import logging #Allows to keep track of what your program is doing and any errors.
+
+from pathlib import Path #Helps  work with files and folders easily.
+
+import argparse #Makes it easy to read user inputs from the command line (like file paths).
+
 import pandas as pd
-from typing import Dict, List, Tuple, Optional
-import re
+from typing import Dict, List, Tuple, Optional #what types of data you expect (for clarity and error prevention).
+
+import re #Provides tools for finding patterns in text 
 
 # --------------------------------------------------------------------------------------
 # Setup logging
@@ -15,36 +19,39 @@ logger = logging.getLogger(__name__)
 # Parsing and Data Handling Functions
 # --------------------------------------------------------------------------------------
 
+
 def _split_quoted_csv(s: str) -> List[str]:
-    """Splits a CSV string, respecting quoted fields."""
+    
+    """Splits a CSV string, respecting quoted fields(outsourced regex)"""
+    
     return [p.strip().strip('"') for p in re.split(r',(?=(?:[^"]*"[^"]*")*[^"]*$)', s)]
 
-def parse_ags_file(file_bytes: bytes) -> Dict[str, pd.DataFrame]:
-    """
-    Parses AGS 3.1 format file bytes into a dictionary of pandas DataFrames.
-    """
-    text = file_bytes.decode("latin-1", errors="ignore")
-    lines = [ln.strip() for ln in text.splitlines() if ln.strip()]
+def parse_ags_file(file_bytes: bytes) -> Dict[str, pd.DataFrame]:  #function patses bytes to a dictionary of dataframes using pandas 
 
-    group_data: Dict[str, List[Dict[str, str]]] = {}
-    current_group: Optional[str] = None
-    headings: List[str] = []
-    is_header_continuation = False
+    text = file_bytes.decode("latin-1", errors="ignore") #decodes using latin-1 encoding
+    lines = [ln.strip() for ln in text.splitlines() if ln.strip()] #lines strip and text split into lines
+
+    group_data: Dict[str, List[Dict[str, str]]] = {}  #group_data is a dictionary where keys are strings and values are lists of dictionaries with string keys and values
+    current_group: Optional[str] = None #current_group is an optional string that starts as None
+    headings: List[str] = [] #headings is a list of strings that starts empty
+    is_header_continuation = False #is_header_continuation is a boolean that starts as False
 
     def _split_line(line: str) -> List[str]:
-        """split a CSV line"""
+        """ split a CSV line, handling quoted fields."""
         # This regex handles commas inside quotes
         parts = re.split(r',(?=(?:[^"]*"[^"]*")*[^"]*$)', line)
         # Strip quotes and whitespace from each part
-        return [p.strip().strip('"') for p in parts]
+        return [p.strip().strip('"') for p in parts] 
 
     for line in lines:
         parts = _split_line(line)
         first_field = parts[0]
-
+        
+        
+                        
         # Rule 10: Start of a new GROUP (e.g., "**HOLE")
         if first_field.startswith("**"):
-            current_group = first_field.strip("*")
+            current_group = first_field.strip("*?")
             group_data.setdefault(current_group, [])
             headings = []
             is_header_continuation = False
@@ -55,28 +62,37 @@ def parse_ags_file(file_bytes: bytes) -> Dict[str, pd.DataFrame]:
 
         # Rule 11 & 13: HEADING line (e.g., "*HOLE_ID") or continuation
         if first_field.startswith("*") or is_header_continuation:
-            # Strip '*' from the start of each heading
-            new_headings = [h.lstrip("*") for h in parts]
+            # Strip '* and ?' from the start of each heading
+            new_headings = [h.lstrip("*?") for h in parts]
             headings.extend(new_headings)
-            # Check if the line ends with a comma, indicating continuation
-            if line.endswith(","):
-                is_header_continuation = True
-            else:
-                is_header_continuation = False
+            
             continue
 
         # Rule 18: UNITS line - ignore for data parsing
         if first_field == "<UNITS>":
             continue
 
-        # Rule 14: Data continuation line
+        # Rule 14: Data continuation line handling
         if first_field == "<CONT>":
-            # This is a continuation of the previous data row.
-            # The AGS spec is complex here. A simple approach is to merge,
-            # but for now, we will skip to avoid data corruption.
-            # A more advanced implementation would merge this with the last row.
-            logger.warning(f"Data continuation line '<CONT>' found and skipped in group '{current_group}'.")
+            cont_values = parts[1:]  # skip <CONT>
+            last_row = group_data[current_group][-1]
+
+            # Find how many columns were filled from original data row (excluding first column)
+            # This assumes original parsing filled columns 1 through N for the previous row.
+            filled_count = 1  # first column skipped in <CONT>, so start at 1
+            while filled_count < len(headings) and headings[filled_count] in last_row:
+                filled_count += 1
+
+            # Now, append each continuation value to next columns
+            for v in cont_values:
+                if filled_count < len(headings):
+                    last_row[headings[filled_count]] = v
+                    filled_count += 1
+                else:
+                    # Optional: ignore or log extra data
+                    break
             continue
+
 
         # Data Row
         if headings and parts:
@@ -88,20 +104,27 @@ def parse_ags_file(file_bytes: bytes) -> Dict[str, pd.DataFrame]:
             
             row_dict = dict(zip(headings, row_values))
             group_data[current_group].append(row_dict)
-
-    # Convert collected data into DataFrames
-    group_dfs = {g: pd.DataFrame(rows) for g, rows in group_data.items() if rows}
+            
+    # convert to DataFrames and convert "" / whitespace / None / NaN -> "-"
+    group_dfs = {}
+    for g, rows in group_data.items():
+        if not rows:
+            continue
+        df = pd.DataFrame(rows)
+        # Replace empty or whitespace-only strings with "-" across the whole DataFrame
+        df = df.replace(r'^\s*$', '-', regex=True).fillna('-')
+        group_dfs[g] = df
     return group_dfs
+ 
 
 def find_hole_id_column(columns: List[str]) -> Optional[str]:
-    """Identify HOLE_ID or possible variants (just in case) in a list of columns."""
+    """Identify HOLE_ID or common variants in a list of columns."""
     # Create a map of uppercase column names to original names
     uc_map = {str(c).upper(): c for c in columns}
     
     # List of common primary keys for boreholes
     candidates = [
-        "HOLE_ID", "HOLEID", "HOLE", "LOCA_ID", "LOCATION_ID", 
-        "LOC_ID", "LOCID"
+        "HOLE_ID", "HOLEID", "HOLE", "LOCA_ID", "LOCATION_ID"
     ]
     
     for cand in candidates:
@@ -178,7 +201,7 @@ def write_groups_to_excel(groups: Dict[str, pd.DataFrame], output_path: Path):
     if not groups:
         logger.warning("No data to write to Excel.")
         return
-
+    
     logger.info(f"Writing combined data to {output_path}...")
     try:
         with pd.ExcelWriter(output_path, engine="xlsxwriter") as writer:
@@ -232,6 +255,4 @@ def main():
     write_groups_to_excel(combined_groups, output_path)
 
 if __name__ == "__main__":
-
     main()
-
