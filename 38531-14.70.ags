@@ -1,0 +1,280 @@
+"**PROJ"
+"*PROJ_ID","*PROJ_NAME","*PROJ_LOC","*PROJ_CLNT","*PROJ_CONT","*PROJ_ENG","*PROJ_MEMO","*PROJ_DATE","*PROJ_AGS","*FILE_FSET"
+"<UNITS>","","","","","","","dd/mm/yyyy","",""
+"GE/2001/14.70","Agreement CE 13/96, Ground Investigation at Feature 6NE-A/C2 at Au Tau Government Quarters, Yuen Long, NT, Ground Investigation","","Works Division of the Civil Engineering Dept.","Geotechnics & Concrete En","","","","",""
+"<CONT>","","","","gineering (HK) Ltd.","Mouchel Asia Ltd.","","16/07/2003","3",""
+
+"**HOLE"
+"*HOLE_ID","*HOLE_TYPE","*HOLE_NATE","*HOLE_NATN","*HOLE_GL","*HOLE_FDEP","*HOLE_STAR","*HOLE_LOG","*HOLE_REM","*HOLE_ETRV","*HOLE_NTRV","*HOLE_LTRV","*HOLE_LETT","*HOLE_LOCX","*HOLE_LOCY","*HOLE_LOCZ","*HOLE_ENDD","*HOLE_BACD",
+"*HOLE_CREW","*HOLE_ORNT","*HOLE_INCL","*HOLE_EXC","*HOLE_SHOR","*HOLE_STAB","*HOLE_DIML","*HOLE_DIMW","*HOLE_LOCM","*HOLE_LOCA","*HOLE_CLST","*?HOLE_CHEK","*?HOLE_DCHK","*?HOLE_DLOG","*FILE_FSET"
+"<UNITS>","","m","m","m","m","dd/mm/yyyy","","","m","m","m","","m","m","m","dd/mm/yyyy","dd/mm/yyyy","","deg","deg","","","","m","m","","","","","dd/mm/yyyy","dd/mm/yyyy",""
+"TP201","TP","822779.68","833696.41","31.61","3.35","13/05/2003","D.Y. Yip","","","","","","","","","20/05/2003","27/05/2003","T.O. Yuen","000","90","Hand dug","Timber shoring over full height","Stable","1.5","1.5","","","","","","",""
+"<CONT>","","","","","","","","","","","","","","","","","","","","","","","","","","","","","James Lu","22/05/2003","21/05/2003",""
+"TP202","TP","822778.81","833655.04","32.35","3.33","13/05/2003","D.Y. Yip","","","","","","","","","20/05/2003","28/05/2003","T.O. Yuen","000","90","Hand dug","Timber shoring over full height","Stable","1.5","1.5","","","","","","",""
+"<CONT>","","","","","","","","","","","","","","","","","","","","","","","","","","","","","James Lu","22/05/2003","21/05/2003",""
+"TP203","TP","822773.60","833573.93","43.94","3.1","14/05/2003","D.Y. Yip","","","","","","","","","20/05/2003","28/05/2003","T.O. Yuen","000","90","Hand dug","Timber shoring over full height","Stable","1.5","1.5","","","","","","",""
+"<CONT>","","","","","","","","","","","","","","","","","","","","","","","","","","","","","James Lu","22/05/2003","21/05/2003",""
+"TT201","TP","822831.22","833640.63","","0.7","13/05/2003","D.Y. Yip","","822828.03","833656.76","","","","","","29/05/2003","06/06/2003","T.O. Yuen","000","90","Hand dug","No shoring","Stable","17.65","1","","","","","","",""
+"<CONT>","","","","","","","","","","","","","","","","","","","","","","","","","","","","","James Lu","29/05/2003","29/05/2003",""
+
+
+
+
+"**SAMP"
+"*HOLE_ID","*SAMP_TOP","*SAMP_REF","*SAMP_TYPE","*SAMP_DIA","*SAMP_BASE","*SAMP_DESC","*SAMP_UBLO","*SAMP_REM","*SAMP_DATE","*SAMP_TIME","*SAMP_BAR","*SAMP_WDEP","*SAMP_TEMP","*SAMP_PRES","*SAMP_FLOW","*GEOL_STAT","*FILE_FSET"
+"<UNITS>","m","","","mm","m","","","","dd/mm/yyyy","hhmmss","kPa","m","DegC","kPa","l/min","",""
+"TP201","0.5","1","D","","0.55","FILL","","","14/05/2003","","","","","","","1",""
+"TP201","1","2","D","","1.05","FILL","","","14/05/2003","","","","","","","2",""
+"TP201","1","3","BLK","","1.3","FILL","","","14/05/2003","","","","","","","2",""
+"TP201","1","4","LB","","1.2","FILL","","","14/05/2003","","","","","","","2",""
+"TP201","1.5","5","D","","1.55","FILL","","","15/05/2003","","","","","","","4",""
+"TP201","2","6","D","","2.05","FILL","","","16/05/2003","","","","","","","4",""
+"TP201","2","7","LB","","2.2","FILL","","","16/05/2003","","","","","","","5",""
+"TP201","2.5","8","D","","2.55","FILL","","","16/05/2003","","","","","","","6",""
+"TP201","2.5","9","BLK","","2.8","FILL","","","16/05/2003","","","","","","","7",""
+"TP201","3","10","D","","3.05","SILTS","","","17/05/2003","","","","","","","8",""
+"TP201","3","11","LB","","3.2","SILTS","","","17/05/2003","","","","","","","8",""
+"TP202","0.5","1","D","","0.55","FILL","","","13/05/2003","","","","","","","1",""
+"TP202","1","2","D","","1.05","FILL","","","13/05/2003","","","","","","","1",""
+"TP202","1","3","BLK","","1.3","FILL","","","13/05/2003","","","","","","","2",""
+"TP202","1","4","LB","","1.2","FILL","","","13/05/2003","","","","","","","1",""
+"TP202","1.5","5","D","","1.55","FILL","","","14/05/2003","","","","","","","3",""
+"TP202","2","6","D","","2.05","FILL","","","14/05/2003","","","","","","","5",""
+"TP202","2","7","LB","","2.2","FILL","","","14/05/2003","","","","","","","5",""
+"TP202","2.5","8","D","","2.55","FILL","","","15/05/2003","","","","","","","6",""
+"TP202","2.5","9","BLK","","2.8","FILL","","","15/05/2003","","","","","","","7",""
+"TP202","3","10","D","","3.05","FILL","","","16/05/2003","","","","","","","7",""
+"TP202","3","11","LB","","3.2","FILL","","","16/05/2003","","","","","","","7",""
+"TP203","0.5","1","D","","0.55","FILL","","","15/05/2003","","","","","","","1",""
+"TP203","1","2","D","","1.05","FILL","","","15/05/2003","","","","","","","1",""
+"TP203","1","3","BLK","","1.3","FILL","","","16/05/2003","","","","","","","1",""
+"TP203","1","4","LB","","1.2","FILL","","","16/05/2003","","","","","","","1",""
+"TP203","1.5","5","D","","1.55","FILL","","","16/05/2003","","","","","","","2",""
+"TP203","2","6","D","","2.05","FILL","","","16/05/2003","","","","","","","3",""
+"TP203","2","7","LB","","2.2","FILL","","","16/05/2003","","","","","","","3",""
+"TP203","2.5","8","D","","2.55","FILL","","","17/05/2003","","","","","","","3",""
+"TP203","2.8","9","D","","2.82","FILL","","","19/05/2003","","","","","","","3",""
+"TP203","2.8","10","LB","","3","FILL","","","19/05/2003","","","","","","","3",""
+"TT201","0.5","1","D","","0.55","FILL","","","29/05/2003","","","","","","","1",""
+
+"**GEOL"
+"*HOLE_ID","*GEOL_TOP","*GEOL_BASE","*GEOL_DESC","*GEOL_LEG","*GEOL_GEOL","*GEOL_GEO2","*GEOL_STAT","*FILE_FSET"
+"<UNITS>","m","m","","","","","",""
+"TP201","0","1.1","Very stiff, dry, reddish brown (5YR 5/4) to pinkish brown (5YR 6/4) spotted and mottled light grey, white and yellowish brown, locally dappled yellowish brown, sandy SILT with some rootlets, occasional an","","","","",""
+"<CONT>","","","gular to subangular fine gravel sized quartz fragments and some fine to occasional medium and coarse gravel and cobble sized completely decomposed, highly decomposed and moderately decomposed tuff fragments. ","","","","",""
+"<CONT>","","","(COMPACTED FILL)","FILL","Q","","1",""
+"TP201","1.1","1.43","Very stiff, dry, pinkish brown (5YR 6/4) spotted and mottled light grey, white, yellowish brown and reddish brown, sandy SILT with occasional rootlets, angular to subangular fine gravel sized quartz fr","","","","",""
+"<CONT>","","","agments, and some fine to medium and occasional coarse gravel and cobble sized completely decomposed, highly decomposed and moderately decomposed tuff fragments. (COMPACTED FILL)","FILL","Q","","2",""
+"TP201","1.43","1.49","Very stiff, dry, yellowish brown (10YR 5/8) spotted and mottled light grey, white and reddish brown, sandy SILT with occasional angular to subangular fine gravel sized quartz fragments and some fine t","","","","",""
+"<CONT>","","","o occasional medium gravel sized highly decomposed and moderately decomposed tuff fragments, occasionally medium gravel sized quartz fragments. (COMPACTED FILL)","FILL","Q","","3",""
+"TP201","1.49","2.16","Very stiff, dry, reddish brown (5YR 5/4) to light reddish brown (5YR 6/4) spotted and mottled light grey, white and yellowish brown, sandy SILT with some rootlets, occasional angular to subangular fin","","","","",""
+"<CONT>","","","e gravel sized quartz fragments and fine to coarse gravel and cobble sized highly decomposed and moderately decomposed tuff fragments. (COMPACTED FILL)","FILL","Q","","4",""
+"TP201","2.16","2.34","Loose, dry, grey (7.5YR 6/1), slightly silty fine to coarse SAND with occasional angular to subangular fine gravel sized quartz fragments and much fine to occasional medium gravel sized slightly decom","","","","",""
+"<CONT>","","","posed granite fragments. (COMPACTED FILL-FILTER MATERIAL)","FILL","Q","","5",""
+"TP201","2.34","2.59","Loose, dry, grey (7.5YR 6/1), slightly sandy angular fine to medium GRAVEL sized slightly decomposed granite fragments. (COMPACTED FILL-DRAINAGE MATERIAL)","FILL","Q","","6",""
+"TP201","2.59","2.95","Loose, dry, grey (7.5YR 6/1), slightly silty fine to coarse SAND with occasional angular to subangular fine gravel sized quartz fragments and much fine to occasional medium gravel sized slightly decom","","","","",""
+"<CONT>","","","posed granite fragments. (COMPACTED FILL-FILTER MATERIAL)","FILL","Q","","7",""
+"TP201","2.95","3.35","Very stiff, dry, pinkish brown (5YR 6/4) spotted and mottled light grey, white and yellowish brown, spotted reddish brown, sandy SILT with occasional angular to subangular fine gravel sized quartz fra","","","","",""
+"<CONT>","","","gments and fine to coarse gravel sized completely decomposed and highly decomposed tuff fragments. (COMPACTED FILL)","FILL","Q","","8",""
+"TP202","0","1.26","Very stiff, dry, pinkish brown (5YR 6/4) spotted and mottled light grey, yellowish brown and reddish brown, sandy SILT with some rootlets, occasional angular to subangular fine gravel sized quartz fragme","","","","",""
+"<CONT>","","","nts and some fine to medium and occasional coarse gravel, cobble and boulder sized completely decomposed, highly decomposed and moderately decomposed tuff fragments. (COMPACTED FILL)","FILL","Q","","1",""
+"TP202","1.26","1.48","Very stiff, dry, pinkish brown (5YR 6/4) spotted and mottled light grey, white, yellowish brown and reddish brown, sandy SILT with much rootlets, occasional angular to subangular fine gravel sized qua","","","","",""
+"<CONT>","","","rtz fragments and some fine to coarse gravel and occasional cobble and boulder sized completely decomposed, highly decomposed and moderately decomposed tuff fragments. (COMPACTED FILL)","FILL","Q","","2",""
+"TP202","1.48","1.93","Very stiff, dry, pinkish brown (5YR 6/4) spotted and mottled light grey, white, yellowish brown and reddish brown, sandy SILT with occasional rootlets, angular to subangular fine gravel sized quartz f","","","","",""
+"<CONT>","","","ragments and some fine to medium and occasional coarse gravel sized completely decomposed, highly decomposed and moderately decomposed tuff fragments, occasionally iron wire. (COMPACTED FILL)","FILL","Q","","3",""
+"TP202","1.93","2.02","Loose, dry, grey (7.5YR 6/1), slightly silty fine to coarse SAND with much angular to subangular fine gravel sized quartz fragments and fine to occasional medium gravel sized slightly decomposed grani","","","","",""
+"<CONT>","","","te fragments. (COMPACTED FILL-FILTER MATERIAL)","FILL","Q","","4",""
+"TP202","2.02","2.26","Loose, dry, grey (7.5YR 6/1), slightly silty, sandy angular fine to medium GRAVEL sized slightly decomposed granite fragments. (COMPACTED FILL-DRAINAGE MATERIAL)","FILL","Q","","5",""
+"TP202","2.26","2.56","Loose, dry, grey (7.5YR 6/1), slightly silty fine to coarse SAND with much angular to subangular fine gravel sized quartz fragments and fine to occasional medium gravel sized slightly decomposed grani","","","","",""
+"<CONT>","","","te fragments. (COMPACTED FILL-FILTER MATERIAL)","FILL","Q","","6",""
+"TP202","2.56","3.26","Very stiff, dry, yellowish brown (10YR 5/8) spotted, mottled and occasional dappled light grey, white, purplish grey and reddish brown, sandy SILT with occasional rootlets, angular to subangular fine ","","","","",""
+"<CONT>","","","gravel sized quartz fragments, some angular to subrounded fine to medium and occasional coarse gravel and cobble sized completely decomposed, highly decomposed and occasional moderately decomposed tuff fragme","","","","",""
+"<CONT>","","","nts. (COMPACTED FILL)","FILL","Q","","7",""
+"TP202","3.26","3.33","Very stiff, dry, light reddish brown (5YR 6/4) spotted, mottled and dappled light grey, white, yellowish brown and reddish brown, sandy SILT with occasional angular to subangular fine gravel sized qua","","","","",""
+"<CONT>","","","rtz fragments and fine to coarse gravel sized highly decomposed and moderately decomposed tuff fragments. (COMPACTED FILL)","FILL","Q","","8",""
+"TP203","0","1.38","Very stiff, dry, light pinkish brown (5YR 6/4) to yellowish brown (10YR 5/8) spotted, mottled and dappled light grey, white, yellowish brown and occasional reddish brown, sandy SILT with some rootlets, o","","","","",""
+"<CONT>","","","ccasional angular to subangular fine gravel sized quartz fragments and some fine to coarse gravel and occasional cobble sized completely decomposed, highly decomposed and moderately decomposed tuff fragments.","","","","",""
+"<CONT>","",""," (COMPACTED FILL)","FILL","Q","","1",""
+"TP203","1.38","1.92","Very stiff, dry, pinkish brown (5YR 6/4) spotted, mottled and dappled light grey, white and reddish brown, sandy SILT with some rootlets, occasional angular to subangular fine gravel sized quartz frag","","","","",""
+"<CONT>","","","ments and some fine to coarse gravel sized completely decomposed, highly decomposed and moderately decomposed tuff fragments. (COMPACTED FILL)","FILL","Q","","2",""
+"TP203","1.92","3.08","Very stiff, dry, light pinkish brown (5YR 6/4) spotted and mottled light grey, white, yellowish brown and reddish brown, sandy SILT with occasional rootlets, angular to subangular fine gravel sized qu","","","","",""
+"<CONT>","","","artz fragments and some fine to coarse gravel and occasional cobble and boulder sized completely decomposed, highly decomposed and moderately decomposed tuff fragments. (COMPACTED FILL)","FILL","Q","","3",""
+"TP203","3.08","3.1","Moderately weak to moderately strong, locally weak, dry, light grey spotted, mottled and dappled yellowish brown and reddish brown, moderately decomposed, coarse ash TUFF.","TUFF","J","","4",""
+"TT201","0","0.7","Soft to firm, moist, pinkish brown (5YR 6/4), sandy SILT with occasional rootlets, angular to subangular fine gravel sized quartz fragments and occasional fine to coarse gravel and cobble sized highly dec","","","","",""
+"<CONT>","","","omposed and moderately decomposed tuff fragments. (FILL)","FILL","Q","","1",""
+
+"**?LEGD"
+"*?HOLE_ID","*?LEGD_TOP","*?LEGD_BASE","*?GEOL_LEG"
+"<UNITS>","m","m",""
+"TP201","0","1.1","FILL"
+"TP201","1.1","1.43","FILL"
+"TP201","1.43","1.49","FILL"
+"TP201","1.49","2.16","FILL"
+"TP201","2.16","2.34","FILL"
+"TP201","2.34","2.59","FILL"
+"TP201","2.59","2.95","FILL"
+"TP201","2.95","3","SILTS"
+"TP202","0","1.26","FILL"
+"TP202","1.26","1.48","FILL"
+"TP202","1.48","1.93","FILL"
+"TP202","1.93","2.02","FILL"
+"TP202","2.02","2.26","FILL"
+"TP202","2.26","2.56","FILL"
+"TP202","2.56","3.26","FILL"
+"TP202","3.26","3.33","FILL"
+"TP203","0","1.38","FILL"
+"TP203","1.38","1.92","FILL"
+"TP203","1.92","3.08","FILL"
+"TP203","3.08","3.1","TUFF"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"**IDEN"
+"*HOLE_ID","*IDEN_DPTH","*IDEN_REM","*IDEN_IDEN","*IDEN_MC","*GEOL_STAT"
+"<UNITS>","m","","Mg/m3","%",""
+"TP201","0.3","Test performed in accordance with GEO Report No. 36 : 1994 Test 9.2.1","1.72","15",""
+"TP201","0.6","Test performed in accordance with GEO Report No. 36 : 1994 Test 9.2.1","1.81","7.5",""
+"TP201","0.9","Test performed in accordance with GEO Report No. 36 : 1994 Test 9.2.1","1.77","7.7",""
+"TP201","1.2","Test performed in accordance with GEO Report No. 36 : 1994 Test 9.2.1","1.61","8.9",""
+"TP201","1.5","Test performed in accordance with GEO Report No. 36 : 1994 Test 9.2.1","1.88","9.8",""
+"TP201","1.8","Test performed in accordance with GEO Report No. 36 : 1994 Test 9.2.1","1.93","9.5",""
+"TP201","2.1","Test performed in accordance with GEO Report No. 36 : 1994 Test 9.2.1","1.85","8.8",""
+"TP201","2.4","Test performed in accordance with GEO Report No. 36 : 1994 Test 9.2.1","1.98","2.2",""
+"TP201","2.7","Test performed in accordance with GEO Report No. 36 : 1994 Test 9.2.1","1.90","12",""
+"TP201","3","Test performed in accordance with GEO Report No. 36 : 1994 Test 9.2.1","1.73","9.3",""
+"TP202","0.3","Test performed in accordance with GEO Report No. 36 : 1994 Test 9.2.1","1.88","10",""
+"TP202","0.6","Test performed in accordance with GEO Report No. 36 : 1994 Test 9.2.1","1.83","10",""
+"TP202","0.9","Test performed in accordance with GEO Report No. 36 : 1994 Test 9.2.1","1.82","8.7",""
+"TP202","1.2","Test performed in accordance with GEO Report No. 36 : 1994 Test 9.2.1","1.59","8.6",""
+"TP202","1.5","Test performed in accordance with GEO Report No. 36 : 1994 Test 9.2.1","1.79","7.2",""
+"TP202","1.8","Test performed in accordance with GEO Report No. 36 : 1994 Test 9.2.1","1.74","7.3",""
+"TP202","2.1","Test performed in accordance with GEO Report No. 36 : 1994 Test 9.2.1","2.02","2.4",""
+"TP202","2.4","Test performed in accordance with GEO Report No. 36 : 1994 Test 9.2.1","1.85","12",""
+"TP202","2.7","Test performed in accordance with GEO Report No. 36 : 1994 Test 9.2.1","1.76","11",""
+"TP202","3","Test performed in accordance with GEO Report No. 36 : 1994 Test 9.2.1","1.68","15",""
+"TP203","0.3","Test performed in accordance with GEO Report No. 36 : 1994 Test 9.2.1","1.92","11",""
+"TP203","0.6","Test performed in accordance with GEO Report No. 36 : 1994 Test 9.2.1","1.76","12",""
+"TP203","0.9","Test performed in accordance with GEO Report No. 36 : 1994 Test 9.2.1","1.68","9.7",""
+"TP203","1.2","Test performed in accordance with GEO Report No. 36 : 1994 Test 9.2.1","1.86","9.1",""
+"TP203","1.5","Test performed in accordance with GEO Report No. 36 : 1994 Test 9.2.1","1.78","8.5",""
+"TP203","1.8","Test performed in accordance with GEO Report No. 36 : 1994 Test 9.2.1","1.88","6.4",""
+"TP203","2.1","Test performed in accordance with GEO Report No. 36 : 1994 Test 9.2.1","1.84","6.2",""
+"TP203","2.4","Test performed in accordance with GEO Report No. 36 : 1994 Test 9.2.1","1.83","7.5",""
+"TP203","2.7","Test performed in accordance with GEO Report No. 36 : 1994 Test 9.2.1","1.81","7.1",""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"**WETH"
+"*HOLE_ID","*WETH_TOP","*WETH_BASE","*WETH_GRAD","*WETH_REM"
+"<UNITS>","m","m","",""
+"TP203","3.08","3.1","III","Geoguide 3"
+
+
+"**DICT"
+"*DICT_TYPE","*DICT_GRP","*DICT_HDNG","*DICT_STAT","*DICT_DESC","*DICT_UNIT","*DICT_EXMP"
+"GROUP","LEGD","","","Detailed Legend Code","",""
+"HEADING","HOLE","HOLE_CHEK","COMMON","Person responsible for checking log","","GMP"
+"HEADING","HOLE","HOLE_DCHK","COMMON","Date of checking","dd/mm/yyyy","24/03/1991"
+"HEADING","HOLE","HOLE_DLOG","COMMON","Date of logging","dd/mm/yyyy","21/03/1991"
+"HEADING","LEGD","GEOL_LEG","COMMON","Legend Code","","SANDG"
+"HEADING","LEGD","HOLE_ID","KEY","Exploratory hole name/number","","M7"
+"HEADING","LEGD","LEGD_BASE","COMMON","Depth to the BASE of legend interval","m","15.00"
+"HEADING","LEGD","LEGD_TOP","COMMON","Depth to the TOP of legend interval","m","12.50"
+
+
+"**UNIT"
+"*UNIT_UNIT","*UNIT_DESC"
+"dd/mm/yyyy","day month year"
+"m","metre"
+"deg","degree (angle)"
+"mm","millimetre"
+"dd/mm/yyyy hhmmss","day month year hours minutes seconds"
+"min","minute"
+"hhmm","hours minutes"
+"hhmmss","hours minutes seconds"
+"kPa","kiloPascal"
+"DegC","degree Celsius"
+"l/min","litres per minute"
+"%","percentage"
+"Mg/m3","megagrams per cubic metre"
+"kN/m2","kiloNewtons per square metre"
+"m2/MN","square metres per megaNewton"
+"m2/yr","square metres per year"
+"MN/m2","megaNewtons per square metre"
+"m/s","metres per second"
+"GPa","gigaPascal"
+"uS/cm","microSiemens per centimetre"
+"mV","milliVolt"
+"counts/s","counts per second"
+"uV","microVolt"
+"Nm","Newton metres"
+"ohmcm","Ohm centimetre"
+"l/s","litres per second"
+"cm3","cubic centimetre"
+"mm/s","millimetres per second"
+"kN","kiloNewton"
+"MPa","megaPascal"
+"kg","kilogram"
+
+"**ABBR"
+"*ABBR_HDNG","*ABBR_CODE","*ABBR_DESC"
+"HOLE_TYPE","TP","Trial Pit/trench"
+"SAMP_TYPE","D","small Disturbed Sample"
+"SAMP_TYPE","BLK","Block sample"
+"SAMP_TYPE","LB","Large Disturbed Sample"
+"GEOL_LEG","FILL","Artificial fill"
+"GEOL_LEG","TUFF","Coarse Ash Tuff, Lapilli Tuff"
+"GEOL_GEOL","Q","Superficial Deposit"
+"GEOL_GEOL","J","Undifferentiated volcanic rock"
+"?GEOL_LEG","FILL","Artificial fill"
+"?GEOL_LEG","SILTS","Sandy Silt"
+"?GEOL_LEG","TUFF","Coarse Ash Tuff, Lapilli Tuff"
+"WETH_GRAD","III","Moderately decomposed"
+"DICT_UNIT","dd/mm/yyyy","day month year"
+"DICT_UNIT","m","metre"

@@ -1,0 +1,305 @@
+"**PROJ"
+"*PROJ_ID","*PROJ_NAME","*PROJ_LOC","*PROJ_CLNT","*PROJ_CONT","*PROJ_ENG","*PROJ_MEMO","*PROJ_DATE","*PROJ_AGS","*FILE_FSET"
+"<UNITS>","","","","","","","dd/mm/yyyy","",""
+"GE/2001/14.44C","Agreement No. 16/2001, Drainage Improvement in Tuen Mun, Ground Investigation","","The Drainage Projects/Sewerage Projects Division of the Drainage Services Department","Geotechnics & Concrete Engineering ","","","","",""
+"<CONT>","","","","(HK) Ltd.","Scott Wilson Limited","","09/07/2003","3",""
+
+"**HOLE"
+"*HOLE_ID","*HOLE_TYPE","*HOLE_NATE","*HOLE_NATN","*HOLE_GL","*HOLE_FDEP","*HOLE_STAR","*HOLE_LOG","*HOLE_REM","*HOLE_ETRV","*HOLE_NTRV","*HOLE_LTRV","*HOLE_LETT","*HOLE_LOCX","*HOLE_LOCY","*HOLE_LOCZ","*HOLE_ENDD","*HOLE_BACD",
+"*HOLE_CREW","*HOLE_ORNT","*HOLE_INCL","*HOLE_EXC","*HOLE_SHOR","*HOLE_STAB","*HOLE_DIML","*HOLE_DIMW","*HOLE_LOCM","*HOLE_LOCA","*HOLE_CLST","*?HOLE_CHEK","*?HOLE_DCHK","*?HOLE_DLOG","*FILE_FSET"
+"<UNITS>","","m","m","m","m","dd/mm/yyyy","","","m","m","m","","m","m","m","dd/mm/yyyy","dd/mm/yyyy","","deg","deg","","","","m","m","","","","","dd/mm/yyyy","dd/mm/yyyy",""
+"SP1","TP","818254.96","826260.04","5.80","1.1","19/05/2003","D.Y. Yip","","","","","","","","","21/05/2003","29/05/2003","T.O. Yuen","000","90","Hand dug","No shoring","Stable","1.5","1.5","","","","James Lu","23/05/2003","22/05/2003",""
+"SP12","TP","818630.26","826335.34","7.49","2.7","19/05/2003","D.Y. Yip","","","","","","","","","24/05/2003","30/05/2003","T.O. Yuen","000","90","Hand dug","Timber shoring over full height","Stable","1.5","1.5","","","","","","",""
+"<CONT>","","","","","","","","","","","","","","","","","","","","","","","","","","","","","James Lu","27/05/2003","26/05/2003",""
+"SP2","TP","818276.61","826263.76","6.10","1.66","22/05/2003","D.Y. Yip","","","","","","","","","24/05/2003","30/05/2003","T.O. Yuen","000","90","Hand dug","Timber shoring over full height","Stable","1.5","1.5","","","","","","",""
+"<CONT>","","","","","","","","","","","","","","","","","","","","","","","","","","","","","James Lu","27/05/2003","26/05/2003",""
+"SP3","TP","818301.76","826281.24","5.87","1.06","19/05/2003","D.Y. Yip","","","","","","","","","22/05/2003","30/05/2003","T.O. Yuen","000","90","Hand dug","No shoring","Stable","1.5","1.5","","","","James Lu","24/05/2003","23/05/2003",""
+"SP4","TP","818287.87","826277.62","5.95","0.9","20/05/2003","D.Y. Yip","","","","","","","","","24/05/2003","30/05/2003","T.O. Yuen","000","90","Hand dug","No shoring","Stable","1.5","1.5","","","","James Lu","27/05/2003","26/05/2003",""
+"SP5","TP","818315.44","826285.26","5.94","1.9","22/05/2003","D.Y. Yip","","","","","","","","","24/05/2003","30/05/2003","T.O. Yuen","000","90","Hand dug","Timber shoring over full height","Stable","1.5","1.5","","","","James Lu","","",""
+"<CONT>","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","27/05/2003","26/05/2003",""
+"SP6","TP","818340.78","826301.52","6.22","1.3","22/05/2003","D.Y. Yip","","","","","","","","","24/05/2003","30/05/2003","T.O. Yuen","000","90","Hand dug","No shoring","Stable","1.5","1.5","","","","James Lu","27/05/2003","26/05/2003",""
+"SP8","TP","818389.77","826312.38","6.42","1.56","22/05/2003","D.Y. Yip","","","","","","","","","24/05/2003","30/05/2003","T.O. Yuen","000","90","Hand dug","Timber shoring over full height","Stable","1.5","1.5","","","","","","",""
+"<CONT>","","","","","","","","","","","","","","","","","","","","","","","","","","","","","James Lu","27/05/2003","26/05/2003",""
+
+
+
+
+
+"**SAMP"
+"*HOLE_ID","*SAMP_TOP","*SAMP_REF","*SAMP_TYPE","*SAMP_DIA","*SAMP_BASE","*SAMP_DESC","*SAMP_UBLO","*SAMP_REM","*SAMP_DATE","*SAMP_TIME","*SAMP_BAR","*SAMP_WDEP","*SAMP_TEMP","*SAMP_PRES","*SAMP_FLOW","*GEOL_STAT","*FILE_FSET"
+"<UNITS>","m","","","mm","m","","","","dd/mm/yyyy","hhmmss","kPa","m","DegC","kPa","l/min","",""
+"SP1","0.5","1","D","","0.55","FILL","","","19/05/2003","","","","","","","2",""
+"SP1","0.5","2","U","100","0.5","FILL","","80% recovery","19/05/2003","","","","","","","2",""
+"SP1","1","3","D","","1.05","FILL","","","20/05/2003","","","","","","","2",""
+"SP1","1.1","4","U","100","1.1","FILL","","67% recovery","20/05/2003","","","","","","","2",""
+"SP12","0.5","1","D","","0.55","FILL","","","19/05/2003","","","","","","","3",""
+"SP12","0.5","2","U","100","0.5","FILL","","100% recovery","19/05/2003","","","","","","","3",""
+"SP12","1","3","D","","1.05","FILL","","","20/05/2003","","","","","","","4",""
+"SP12","1.5","4","D","","1.55","SILTCS","","","20/05/2003","","","","","","","5",""
+"SP12","1.5","5","U","100","1.5","SILTCS","","100% recovery","20/05/2003","","","","","","","5",""
+"SP12","2","6","D","","2.05","SANDCZG","","","21/05/2003","","","","","","","6",""
+"SP12","2.5","7","D","","2.55","SANDCZG","","","22/05/2003","","","","","","","6",""
+"SP12","2.6","8","U","100","2.6","SANDCZG","","82% recovery","23/05/2003","","","","","","","6",""
+"SP12","2.7","9","D","","2.75","SANDCZG","","","23/05/2003","","","","","","","6",""
+"SP2","0.5","1","D","","0.55","CONCRETE","","","22/05/2003","","","","","","","3",""
+"SP2","0.5","2","U","100","0.5","CONCRETE","","100% recovery","22/05/2003","","","","","","","3",""
+"SP2","1","3","D","","1.05","FILL","","","22/05/2003","","","","","","","4",""
+"SP2","1.5","4","D","","1.55","FILL","","","23/05/2003","","","","","","","4",""
+"SP2","1.5","5","D","","1.55","FILL","","","23/05/2003","","","","","","","4",""
+"SP2","1.5","6","D","","1.55","FILL","","","23/05/2003","","","","","","","4",""
+"SP2","1.66","7","D","","1.71","FILL","","","23/05/2003","","","","","","","4",""
+"SP3","0.5","1","D","","0.55","FILL","","","20/05/2003","","","","","","","2",""
+"SP3","0.5","2","U","100","0.5","FILL","","","20/05/2003","","","","","","","2",""
+"SP3","1","3","D","","1.05","FILL","","","21/05/2003","","","","","","","2",""
+"SP3","1","4","D","","1.05","FILL","","","21/05/2003","","","","","","","2",""
+"SP3","1","5","D","","1.05","FILL","","","21/05/2003","","","","","","","2",""
+"SP3","1","6","U","100","1","FILL","","","21/05/2003","","","","","","","2",""
+"SP4","0.5","1","D","","0.55","FILL","","","23/05/2003","","","","","","","3",""
+"SP4","0.5","2","U","100","0.5","FILL","","73% recovery","23/05/2003","","","","","","","3",""
+"SP4","0.9","3","D","","0.95","FILL","","","24/05/2003","","","","","","","3",""
+"SP4","0.9","4","U","100","0.9","FILL","","89% recovery","24/05/2003","","","","","","","3",""
+"SP5","0.5","1","D","","0.55","FILL","","","22/05/2003","","","","","","","3",""
+"SP5","0.5","2","D","","0.55","FILL","","","22/05/2003","","","","","","","3",""
+"SP5","0.5","3","D","","0.55","FILL","","","22/05/2003","","","","","","","3",""
+"SP5","1","4","D","","1.05","FILL","","","22/05/2003","","","","","","","3",""
+"SP5","1.2","5","U","100","1.2","FILL","","100% recovery","22/05/2003","","","","","","","4",""
+"SP5","1.5","6","D","","1.55","SILTCSG","","","23/05/2003","","","","","","","5",""
+"SP5","1.9","7","D","","1.95","SILTCSG","","","23/05/2003","","","","","","","6",""
+"SP5","1.9","8","U","100","1.9","SILTCSG","","84% recovery","23/05/2003","","","","","","","6",""
+"SP6","0.5","1","D","","0.55","FILL","","","22/05/2003","","","","","","","4",""
+"SP6","0.5","2","D","","0.55","FILL","","","22/05/2003","","","","","","","4",""
+"SP6","0.5","3","D","","0.55","FILL","","","22/05/2003","","","","","","","4",""
+"SP6","1","4","D","","1.05","SANDCZG","","","23/05/2003","","","","","","","6",""
+"SP6","1.3","5","D","","1.35","SANDCZG","","","23/05/2003","","","","","","","6",""
+"SP6","1.3","6","U","100","1.3","SANDCZG","","89% recovery","23/05/2003","","","","","","","6",""
+"SP8","0.5","1","D","","0.55","FILL","","","22/05/2003","","","","","","","3",""
+"SP8","0.5","2","U","100","0.5","FILL","","89% recovery","22/05/2003","","","","","","","3",""
+"SP8","1","3","D","","1.05","FILL","","","23/05/2003","","","","","","","5",""
+"SP8","1.2","4","U","100","1.2","FILL","","78% recovery","24/05/2003","","","","","","","5",""
+"SP8","1.5","5","D","","1.55","FILL","","","24/05/2003","","","","","","","5",""
+
+"**GEOL"
+"*HOLE_ID","*GEOL_TOP","*GEOL_BASE","*GEOL_DESC","*GEOL_LEG","*GEOL_GEOL","*GEOL_GEO2","*GEOL_STAT","*FILE_FSET"
+"<UNITS>","m","m","","","","","",""
+"SP1","0","0.16","Reinforced CONCRETE surface with plastic sheeting underneath.","CONCRETE","Q","","1",""
+"SP1","0.16","0.19","Loose to dense, moist, dark greyish brown (2.5Y 4/2), silty fine to coarse SAND with occasional rootlets, angular to subangular fine gravel sized quartz fragments and some fine to medium gravel sized mo","","","","",""
+"<CONT>","","","derately decomposed granite fragments. (FILL)","FILL","Q","","2",""
+"SP1","0.19","1.1","Loose, moist, yellowish brown (10YR 5/8) to light greyish brown (10YR 6/2), slightly clayey, silty fine to coarse SAND with some rootlets, some angular to subangular fine gravel sized quartz fragments, s","","","","",""
+"<CONT>","","","ome fine to coarse gravel, cobble and boulder sized concrete, moderately decomposed and occasional slightly decomposed granite fragments, some steel wires, plastic sheets, wooden post, nylon threads and occas","","","","",""
+"<CONT>","","","ional cloths, glass fragments, and boulder sized asphalt fragments. (FILL)","FILL","Q","","3",""
+"SP12","0","0.11","CONCRETE.","CONCRETE","Q","","1",""
+"SP12","0.11","0.48","Loose, moist, yellowish brown (10YR 5/8), slightly clayey, silty fine to coarse SAND with some rootlets, occasional angular to subangular fine gravel sized quartz fragments and fine to coarse gravel, c","","","","",""
+"<CONT>","","","obble and boulder sized concrete and moderately decomposed granite fragments, occasionally nylon sheets and fine to medium gravel sized red brick fragments. (FILL)","FILL","Q","","2",""
+"SP12","0.48","0.69","Loose, moist, light greyish brown (10YR 6/2), slightly silty fine to coarse SAND with occasional rootlets, some angular to subangular fine gravel sized quartz fragments and occasional fine to coarse gr","","","","",""
+"<CONT>","","","avel and boulder sized concrete and moderately decomposed granite fragments. (FILL)","FILL","Q","","3",""
+"SP12","0.69","1.48","Loose, moist, yellowish brown (10YR 5/8) striped light brownish grey and dark greyish brown, silty fine to coarse SAND, locally slightly clayey, silty fine to coarse sand, with some rootlets, some angu","","","","",""
+"<CONT>","","","lar to subangular fine gravel sized quartz fragments and some fine to coarse gravel, cobble and boulder sized concrete and moderately decomposed granite fragments, occasionally steel bars, nylon strips, PVC p","","","","",""
+"<CONT>","","","ipes and some plastic sheets. (FILL)","FILL","Q","","4",""
+"SP12","1.48","2.02","Firm, moist, light greyish brown (10YR 6/2) spotted and mottled yellowish brown and dark brown, slightly sandy, slightly clayey SILT with occasional plastic sheet. (ALLUVIUM)","SILTCS","Q","","5",""
+"SP12","2.02","2.7","Loose, moist, brownish grey (2.5Y 5/2), clayey silty fine to coarse SAND with occasional angular to subangular fine gravel sized quartz fragments, fine to coarse gravel sized concrete, red brick and pot","","","","",""
+"<CONT>","","","tery fragments, occasionally boulder sized slightly decomposed quartz fragments. (ALLUVIUM)","SANDCZG","Q","","6",""
+"SP2","0","0.11","Loose, moist, dark greyish brown (2.5Y 4/2), slightly clayey, silty fine to coarse SAND with much rootlets, occasional angular to subangular fine gravel sized quartz fragments and some fine to medium grave","","","","",""
+"<CONT>","","","l sized moderately decomposed granite fragments, occasionally plastic sheets. (FILL)","FILL","Q","","1",""
+"SP2","0.11","0.46","Dark greyish brown (2.5Y 5/2) to black (7.5YR 2.5/1), CONCRETE.","CONCRETE","Q","","2",""
+"SP2","0.46","0.57","Light grey (7.5YR 7/1), CONCRETE.","CONCRETE","Q","","3",""
+"SP2","0.57","1.66","Loose, moist, greyish brown (2.5Y 5/2), slightly clayey, silty fine to coarse SAND with occasional rootlets, some angular to subangular fine gravel sized quartz fragments and fine to coarse gravel, cobb","","","","",""
+"<CONT>","","","le and boulder sized concrete, and moderately decomposed granite fragments, occasionally steel plate, waste PVC pipes, rubber tube, nylon strips, nylon sheets, wooden plate, wooden post, and some plastic shee","","","","",""
+"<CONT>","","","ts and steel bars. (FILL)","FILL","Q","","4",""
+"SP3","0","0.19","Reinforced CONCRETE surface with plastic sheeting underneath.","CONCRETE","Q","","1",""
+"SP3","0.19","1.06","Loose to dense, moist, light greyish brown (10YR 6/2) mottled and dappled yellowish brown, dark grey and occasional reddish brown, slightly clayey, silty fine to coarse SAND with occasional rootlets, so","","","","",""
+"<CONT>","","","me angular to subangular fine gravel sized quartz fragments, much angular to subangular fine to coarse gravel and some cobble and boulder sized concrete, and moderately decomposed granite fragments, occasiona","","","","",""
+"<CONT>","","","lly steel bars, nylon threads, cloths and plastic sheets and angular medium to coarse gravel and cobble sized asphalt fragments. (FILL)","FILL","Q","","2",""
+"SP4","0","0.18","Reinforced CONCRETE surface with plastic sheeting underneath.","CONCRETE","Q","","1",""
+"SP4","0.18","0.25","Loose to dense, moist, dark greyish brown (2.5Y 4/2), silty fine to coarse SAND with some angular to subangular fine gravel sized quartz fragments and fine to medium gravel sized moderately decomposed g","","","","",""
+"<CONT>","","","ranite fragments. (FILL)","FILL","Q","","2",""
+"SP4","0.25","0.9","Loose, moist, yellowish brown (10YR 5/8) mottled and dappled brownish grey, locally mottled red, slightly clayey, silty fine to coarse SAND with some angular to subangular fine gravel sized quartz fragme","","","","",""
+"<CONT>","","","nts and much fine to coarse gravel, cobble and boulder sized concrete, highly decomposed, moderately decomposed and slightly decomposed granite fragments, occasionally wooden plate, wooden post, steel bars, n","","","","",""
+"<CONT>","","","ylon ropes, nylon strips and some plastic sheets. (FILL)","FILL","Q","","3",""
+"SP5","0","0.16","Reinforced CONCRETE surface with plastic sheeting underneath.","CONCRETE","Q","","1",""
+"SP5","0.16","0.19","Loose, moist, dark greyish brown (2.5Y 4/2), silty fine to coarse SAND with some angular to subangular fine gravel sized quartz fragments and fine to occasional medium gravel sized moderately decomposed","","","","",""
+"<CONT>","",""," and slightly decomposed granite fragments. (FILL)","FILL","Q","","2",""
+"SP5","0.19","1.14","Loose, moist, greyish brown (2.5Y 5/2), locally light yellowish brown (10YR 6/4), silty sandy angular to subangular BOULDER with much fine to coarse gravel and cobble sized concrete, red brick and moder","","","","",""
+"<CONT>","","","ately decomposed granite fragments, occasionally rootlets, rubber tubing, nylon ropes, steel bars, pieces of wood, cloths, PVC pipes and some plastic sheets. (FILL)","FILL","Q","","3",""
+"SP5","1.14","1.2","Loose, moist, yellowish brown (10YR 5/8) to light greyish brown (10YR 6/2), clayey silty fine to coarse SAND with some angular to subangular fine gravel sized quartz fragments and occasional fine to coar","","","","",""
+"<CONT>","","","se gravel sized moderately decomposed and slightly decomposed granite fragments. (FILL)","FILL","Q","","4",""
+"SP5","1.2","1.81","Firm, moist, brownish grey (2.5Y 5/2) spotted and mottled yellowish brown, sandy clayey SILT with occasional rootlets and fine gravel sized quartz fragments. (ALLUVIUM)","SILTCSG","Q","","5",""
+"SP5","1.81","1.9","Soft to firm, moist, grey (7.5YR 6/1) to dark grey (7.5YR 4/1), occasionally spotted and mottled yellowish brown, slightly organic, sandy clayey SILT with occasional rootlets and angular to subangular fi","","","","",""
+"<CONT>","","","ne gravel sized quartz fragments. (ALLUVIUM)","SILTCSG","Q","","6",""
+"SP6","0","0.17","Reinforced CONCRETE surface with plastic sheeting underneath.","CONCRETE","Q","","1",""
+"SP6","0.17","0.22","Loose, moist, greyish brown (2.5Y 5/2), silty fine to coarse SAND with some angular to subangular fine gravel sized quartz fragments and fine to medium gravel sized moderately decomposed and slightly de","","","","",""
+"<CONT>","","","composed granite fragments. (FILL)","FILL","Q","","2",""
+"SP6","0.22","0.51","Loose to dense, moist, light brownish grey (10YR 6/2), silty fine to coarse SAND with much angular to subangular fine to coarse gravel and occasional cobble sized red brick, concrete, moderately decompo","","","","",""
+"<CONT>","","","sed and slightly decomposed granite fragments, occasionally electric wire, cloths, nylon strips, and some steel bars. (FILL - Weakly cemented concrete)","FILL","Q","","3",""
+"SP6","0.51","0.77","Loose to dense, moist, yellowish brown (10YR 5/8) dappled grey and brownish grey, silty sandy angular BOULDER with much fine to coarse gravel and cobble sized concrete, moderately decomposed and occasio","","","","",""
+"<CONT>","","","nal slightly decomposed granite fragments, occasionally steel bars and glass fragments. (FILL)","FILL","Q","","4",""
+"SP6","0.77","0.88","Soft to firm, moist, greyish brown (2.5Y 5/2), locally spotted and mottled yellowish brown, slightly clayey, sandy SILT with occasional decayed (black) plant remains and angular to subangular fine grave","","","","",""
+"<CONT>","","","l sized quartz and highly decomposed granite fragments. (ALLUVIUM)","SILTCSG","Q","","5",""
+"SP6","0.88","1.3","Loose, moist, yellowish brown (10YR 5/8), slightly clayey, silty fine to coarse SAND with occasional rootlets and some angular to subangular fine gravel sized quartz fragments. (ALLUVIUM)","SANDCZG","Q","","6",""
+"SP8","0","0.23","Loose to dense, moist, dark greyish brown (2.5Y 5/2) mottled and dappled light grey, yellowish brown and occasional reddish brown, silty fine to coarse SAND with some rootlets, angular to subangular fine g","","","","",""
+"<CONT>","","","ravel sized quartz fragments and much fine to coarse gravel and occasional cobble sized concrete and moderately decomposed granite fragments, occasionally plastic sheets, nylon ropes, and fine to medium grave","","","","",""
+"<CONT>","","","l sized red brick fragments. (FILL)","FILL","Q","","1",""
+"SP8","0.23","0.48","Loose, moist, yellowish brown (10YR 5/8), slightly clayey, silty fine to coarse SAND with occasional rootlets, some angular to subangular fine gravel sized quartz fragments and much fine to coarse grave","","","","",""
+"<CONT>","","","l, and occasional cobble and boulder sized concrete and moderately decomposed granite fragments. (FILL)","FILL","Q","","2",""
+"SP8","0.48","0.71","Loose, moist, dark greyish brown (2.5Y 4/2), silty fine to coarse SAND with occasional rootlets, some angular to subangular fine gravel sized quartz fragments and some fine to medium and occasional coar","","","","",""
+"<CONT>","","","se gravel sized concrete and moderately decomposed granite fragments. (FILL)","FILL","Q","","3",""
+"SP8","0.71","0.93","Loose, moist, yellowish brown (10YR 5/8), silty fine to coarse SAND with occasional rootlets, some angular to subangular fine gravel sized quartz fragments and much fine to coarse gravel, cobble and som","","","","",""
+"<CONT>","","","e boulder sized concrete and moderately decomposed granite fragments, occasionally electric wires. (FILL)","FILL","Q","","4",""
+"SP8","0.93","1.56","Loose, moist, greyish brown (2.5Y 5/2), silty sandy angular BOULDER with much fine to coarse gravel and cobble sized concrete, moderately decomposed and occasional slightly decomposed granite and occasi","","","","",""
+"<CONT>","","","onal granodiorite fragments, occasionally steel wires, steel bars and cloths. (FILL)","FILL","Q","","5",""
+
+"**?LEGD"
+"*?HOLE_ID","*?LEGD_TOP","*?LEGD_BASE","*?GEOL_LEG"
+"<UNITS>","m","m",""
+"SP1","0","0.16","CONCRETE"
+"SP1","0.16","0.19","FILL"
+"SP1","0.19","1.08","FILL"
+"SP12","0","0.11","CONCRETE"
+"SP12","0.11","0.48","FILL"
+"SP12","0.48","0.69","FILL"
+"SP12","0.69","1.48","FILL"
+"SP12","1.48","2.02","SILTCS"
+"SP12","2.02","2.7","SANDCZG"
+"SP2","0","0.11","FILL"
+"SP2","0.11","0.46","CONCRETE"
+"SP2","0.46","0.57","CONCRETE"
+"SP2","0.57","1.66","FILL"
+"SP3","0","0.19","CONCRETE"
+"SP3","0.19","1.06","FILL"
+"SP4","0","0.18","CONCRETE"
+"SP4","0.18","0.25","FILL"
+"SP4","0.25","0.90","FILL"
+"SP5","0","0.16","CONCRETE"
+"SP5","0.16","0.19","FILL"
+"SP5","0.19","1.14","FILL"
+"SP5","1.14","1.20","FILL"
+"SP5","1.2","1.81","SILTCSG"
+"SP5","1.81","1.9","SILTCSG"
+"SP6","0","0.17","CONCRETE"
+"SP6","0.17","0.22","FILL"
+"SP6","0.22","0.51","FILL"
+"SP6","0.51","0.77","FILL"
+"SP6","0.77","0.88","SILTCSG"
+"SP6","0.88","1.3","SANDCZG"
+"SP8","0","0.23","FILL"
+"SP8","0.23","0.48","FILL"
+"SP8","0.48","0.71","FILL"
+"SP8","0.71","0.93","FILL"
+"SP8","0.93","1.56","FILL"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"**DICT"
+"*DICT_TYPE","*DICT_GRP","*DICT_HDNG","*DICT_STAT","*DICT_DESC","*DICT_UNIT","*DICT_EXMP"
+"GROUP","LEGD","","","Detailed Legend Code","",""
+"HEADING","HOLE","HOLE_CHEK","COMMON","Person responsible for checking log","","GMP"
+"HEADING","HOLE","HOLE_DCHK","COMMON","Date of checking","dd/mm/yyyy","24/03/1991"
+"HEADING","HOLE","HOLE_DLOG","COMMON","Date of logging","dd/mm/yyyy","21/03/1991"
+"HEADING","LEGD","GEOL_LEG","COMMON","Legend Code","","SANDG"
+"HEADING","LEGD","HOLE_ID","KEY","Exploratory hole name/number","","M7"
+"HEADING","LEGD","LEGD_BASE","COMMON","Depth to the BASE of legend interval","m","15.00"
+"HEADING","LEGD","LEGD_TOP","COMMON","Depth to the TOP of legend interval","m","12.50"
+
+
+"**UNIT"
+"*UNIT_UNIT","*UNIT_DESC"
+"dd/mm/yyyy","day month year"
+"m","metre"
+"deg","degree (angle)"
+"mm","millimetre"
+"dd/mm/yyyy hhmmss","day month year hours minutes seconds"
+"min","minute"
+"hhmm","hours minutes"
+"hhmmss","hours minutes seconds"
+"kPa","kiloPascal"
+"DegC","degree Celsius"
+"l/min","litres per minute"
+"%","percentage"
+"Mg/m3","megagrams per cubic metre"
+"kN/m2","kiloNewtons per square metre"
+"m2/MN","square metres per megaNewton"
+"m2/yr","square metres per year"
+"MN/m2","megaNewtons per square metre"
+"m/s","metres per second"
+"GPa","gigaPascal"
+"uS/cm","microSiemens per centimetre"
+"mV","milliVolt"
+"counts/s","counts per second"
+"uV","microVolt"
+"Nm","Newton metres"
+"ohmcm","Ohm centimetre"
+"l/s","litres per second"
+"cm3","cubic centimetre"
+"mm/s","millimetres per second"
+"kN","kiloNewton"
+"MPa","megaPascal"
+"kg","kilogram"
+
+"**ABBR"
+"*ABBR_HDNG","*ABBR_CODE","*ABBR_DESC"
+"HOLE_TYPE","TP","Trial Pit/trench"
+"SAMP_TYPE","D","small Disturbed Sample"
+"SAMP_TYPE","U","Undisturbed Sample"
+"GEOL_LEG","CONCRETE","Concrete"
+"GEOL_LEG","FILL","Artificial fill"
+"GEOL_LEG","SILTCS","Sandy Clayey Silt"
+"GEOL_LEG","SANDCZG","Gravelly Silty Clayey Sand"
+"GEOL_LEG","SILTCSG","Gravelly Sandy Clayey Silt"
+"GEOL_GEOL","Q","Superficial Deposit"
+"?GEOL_LEG","CONCRETE","Concrete"
+"?GEOL_LEG","FILL","Artificial fill"
+"?GEOL_LEG","SILTCS","Sandy Clayey Silt"
+"?GEOL_LEG","SANDCZG","Gravelly Silty Clayey Sand"
+"?GEOL_LEG","SILTCSG","Gravelly Sandy Clayey Silt"
+"DICT_UNIT","dd/mm/yyyy","day month year"
+"DICT_UNIT","m","metre"
